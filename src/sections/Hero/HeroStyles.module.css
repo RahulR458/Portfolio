@@ -63,7 +63,7 @@
 
 .colorMode {
   position: absolute;
-  right: 0;
+  /* right: 0; */
   width: 25px;
 }
 
@@ -81,7 +81,7 @@
   gap: 20px;
 }
 
-@media (width >= 800px) {
+@media (width >= 700px) {
   .container {
     flex-direction: row-reverse;
     align-items: center;
